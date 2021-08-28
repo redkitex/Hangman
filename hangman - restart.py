@@ -82,120 +82,120 @@ def draw_screen():
 	screen.blit(heading, (5,5))
 
 	if len(word) == 12:
-	    pygame.draw.rect(screen, yellow, (245,350,300,50))
-	    pygame.draw.rect(screen, black, (245, 350, 300, 50), 1)
-	    screen.blit(letter_12, (250, 350))
-	    pygame.draw.line(screen, black, (250, 300), (280, 300), 4)
-	    pygame.draw.line(screen, black, (285, 300), (315, 300), 4)
-	    pygame.draw.line(screen, black, (320, 300), (350, 300), 4)
-	    pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
-	    pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
-	    pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
-	    pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
-	    pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
-	    pygame.draw.line(screen, black, (530, 300), (560, 300), 4)
-	    pygame.draw.line(screen, black, (565, 300), (595, 300), 4)
-	    pygame.draw.line(screen, black, (600, 300), (630, 300), 4)
-	    pygame.draw.line(screen, black, (635, 300), (665, 300), 4)
+		pygame.draw.rect(screen, yellow, (245,350,300,50))
+		pygame.draw.rect(screen, black, (245, 350, 300, 50), 1)
+		screen.blit(letter_12, (250, 350))
+		pygame.draw.line(screen, black, (250, 300), (280, 300), 4)
+		pygame.draw.line(screen, black, (285, 300), (315, 300), 4)
+		pygame.draw.line(screen, black, (320, 300), (350, 300), 4)
+		pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
+		pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
+		pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
+		pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
+		pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
+		pygame.draw.line(screen, black, (530, 300), (560, 300), 4)
+		pygame.draw.line(screen, black, (565, 300), (595, 300), 4)
+		pygame.draw.line(screen, black, (600, 300), (630, 300), 4)
+		pygame.draw.line(screen, black, (635, 300), (665, 300), 4)
 
 	if len(word) == 11:
-	    pygame.draw.rect(screen, yellow, (245,350,300,50))
-	    pygame.draw.rect(screen, black, (245, 350, 300, 50), 1)
-	    screen.blit(letter_11, (250, 350))
-	    pygame.draw.line(screen, black, (250, 300), (280, 300), 4)
-	    pygame.draw.line(screen, black, (285, 300), (315, 300), 4)
-	    pygame.draw.line(screen, black, (320, 300), (350, 300), 4)
-	    pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
-	    pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
-	    pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
-	    pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
-	    pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
-	    pygame.draw.line(screen, black, (530, 300), (560, 300), 4)
-	    pygame.draw.line(screen, black, (565, 300), (595, 300), 4)
-	    pygame.draw.line(screen, black, (600, 300), (630, 300), 4)
+		pygame.draw.rect(screen, yellow, (245,350,300,50))
+		pygame.draw.rect(screen, black, (245, 350, 300, 50), 1)
+		screen.blit(letter_11, (250, 350))
+		pygame.draw.line(screen, black, (250, 300), (280, 300), 4)
+		pygame.draw.line(screen, black, (285, 300), (315, 300), 4)
+		pygame.draw.line(screen, black, (320, 300), (350, 300), 4)
+		pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
+		pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
+		pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
+		pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
+		pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
+		pygame.draw.line(screen, black, (530, 300), (560, 300), 4)
+		pygame.draw.line(screen, black, (565, 300), (595, 300), 4)
+		pygame.draw.line(screen, black, (600, 300), (630, 300), 4)
 
 	if len(word) == 10:
-	    pygame.draw.rect(screen, yellow, (280,350,300,50))
-	    pygame.draw.rect(screen, black, (280, 350, 300, 50), 1)
-	    screen.blit(letter_10, (285, 350))
-	    pygame.draw.line(screen, black, (285, 300), (315, 300), 4)
-	    pygame.draw.line(screen, black, (320, 300), (350, 300), 4)
-	    pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
-	    pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
-	    pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
-	    pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
-	    pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
-	    pygame.draw.line(screen, black, (530, 300), (560, 300), 4)
-	    pygame.draw.line(screen, black, (565, 300), (595, 300), 4)
-	    pygame.draw.line(screen, black, (600, 300), (630, 300), 4)
+		pygame.draw.rect(screen, yellow, (280,350,300,50))
+		pygame.draw.rect(screen, black, (280, 350, 300, 50), 1)
+		screen.blit(letter_10, (285, 350))
+		pygame.draw.line(screen, black, (285, 300), (315, 300), 4)
+		pygame.draw.line(screen, black, (320, 300), (350, 300), 4)
+		pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
+		pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
+		pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
+		pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
+		pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
+		pygame.draw.line(screen, black, (530, 300), (560, 300), 4)
+		pygame.draw.line(screen, black, (565, 300), (595, 300), 4)
+		pygame.draw.line(screen, black, (600, 300), (630, 300), 4)
 
 	if len(word) == 9:
-	    pygame.draw.rect(screen, yellow, (280,350,300,50))
-	    pygame.draw.rect(screen, black, (280, 350, 300, 50), 1)
-	    screen.blit(letter_9, (285, 350))
-	    pygame.draw.line(screen, black, (285, 300), (315, 300), 4)
-	    pygame.draw.line(screen, black, (320, 300), (350, 300), 4)
-	    pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
-	    pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
-	    pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
-	    pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
-	    pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
-	    pygame.draw.line(screen, black, (530, 300), (560, 300), 4)
-	    pygame.draw.line(screen, black, (565, 300), (595, 300), 4)
+		pygame.draw.rect(screen, yellow, (280,350,300,50))
+		pygame.draw.rect(screen, black, (280, 350, 300, 50), 1)
+		screen.blit(letter_9, (285, 350))
+		pygame.draw.line(screen, black, (285, 300), (315, 300), 4)
+		pygame.draw.line(screen, black, (320, 300), (350, 300), 4)
+		pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
+		pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
+		pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
+		pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
+		pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
+		pygame.draw.line(screen, black, (530, 300), (560, 300), 4)
+		pygame.draw.line(screen, black, (565, 300), (595, 300), 4)
 
 	if len(word) == 8:
-	    pygame.draw.rect(screen, yellow, (315,350,300,50))
-	    pygame.draw.rect(screen, black, (315, 350, 300, 50), 1)
-	    screen.blit(letter_8, (320, 350))
-	    pygame.draw.line(screen, black, (320, 300), (350, 300), 4)
-	    pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
-	    pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
-	    pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
-	    pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
-	    pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
-	    pygame.draw.line(screen, black, (530, 300), (560, 300), 4)
-	    pygame.draw.line(screen, black, (565, 300), (595, 300), 4)
+		pygame.draw.rect(screen, yellow, (315,350,300,50))
+		pygame.draw.rect(screen, black, (315, 350, 300, 50), 1)
+		screen.blit(letter_8, (320, 350))
+		pygame.draw.line(screen, black, (320, 300), (350, 300), 4)
+		pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
+		pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
+		pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
+		pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
+		pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
+		pygame.draw.line(screen, black, (530, 300), (560, 300), 4)
+		pygame.draw.line(screen, black, (565, 300), (595, 300), 4)
 
 	if len(word) == 7:
-	    pygame.draw.rect(screen, yellow, (315,350,300,50))
-	    pygame.draw.rect(screen, black, (315, 350, 300, 50), 1)
-	    screen.blit(letter_7, (320, 350))
-	    pygame.draw.line(screen, black, (320, 300), (350, 300), 4)
-	    pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
-	    pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
-	    pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
-	    pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
-	    pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
-	    pygame.draw.line(screen, black, (530, 300), (560, 300), 4)
+		pygame.draw.rect(screen, yellow, (315,350,300,50))
+		pygame.draw.rect(screen, black, (315, 350, 300, 50), 1)
+		screen.blit(letter_7, (320, 350))
+		pygame.draw.line(screen, black, (320, 300), (350, 300), 4)
+		pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
+		pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
+		pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
+		pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
+		pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
+		pygame.draw.line(screen, black, (530, 300), (560, 300), 4)
 
 	if len(word) == 6:
-	    pygame.draw.rect(screen, yellow, (350,350,300,50))
-	    pygame.draw.rect(screen, black, (350, 350, 300, 50), 1)
-	    screen.blit(letter_6, (355, 350))
-	    pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
-	    pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
-	    pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
-	    pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
-	    pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
-	    pygame.draw.line(screen, black, (530, 300), (560, 300), 4)
+		pygame.draw.rect(screen, yellow, (350,350,300,50))
+		pygame.draw.rect(screen, black, (350, 350, 300, 50), 1)
+		screen.blit(letter_6, (355, 350))
+		pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
+		pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
+		pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
+		pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
+		pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
+		pygame.draw.line(screen, black, (530, 300), (560, 300), 4)
 
 	if len(word) == 5:
-	    pygame.draw.rect(screen, yellow, (350,350,300,50))
-	    pygame.draw.rect(screen, black, (350, 350, 300, 50), 1)
-	    screen.blit(letter_5, (355, 350))
-	    pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
-	    pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
-	    pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
-	    pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
-	    pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
+		pygame.draw.rect(screen, yellow, (350,350,300,50))
+		pygame.draw.rect(screen, black, (350, 350, 300, 50), 1)
+		screen.blit(letter_5, (355, 350))
+		pygame.draw.line(screen, black, (355, 300), (385, 300), 4)
+		pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
+		pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
+		pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
+		pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
 
 	if len(word) == 4:
-	    pygame.draw.rect(screen, yellow, (385,350,300,50))
-	    screen.blit(letter_4, (390, 350))
-	    pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
-	    pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
-	    pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
-	    pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
+		pygame.draw.rect(screen, yellow, (385,350,300,50))
+		screen.blit(letter_4, (390, 350))
+		pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
+		pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
+		pygame.draw.line(screen, black, (460, 300), (490, 300), 4)
+		pygame.draw.line(screen, black, (495, 300), (525, 300), 4)
 
 	#DEFINE LETTERS
 	aa = font.render('A', True, black)
@@ -319,4217 +319,4218 @@ guess = ''
 
 
 def guesses():
-    global guess, click, mouse_pos, a_, l3, l_num, word
-    #guess = ''
-    for event in pygame.event.get():
-        if event.type == pygame.MOUSEBUTTONDOWN :
-            click = True
-        if event.type == pygame.MOUSEBUTTONUP :
-            click = False
-    while game:
-	    print('hi')
+	global guess, click, mouse_pos, a_, l3, l_num, word
+	#guess = ''
+	for event in pygame.event.get():
+		if event.type == pygame.MOUSEBUTTONDOWN :
+			click = True
+		if event.type == pygame.MOUSEBUTTONUP :
+			click = False
+	while game:
 
-	    if a_block.collidepoint(mouse_pos)and click:
-	        pygame.draw.rect(screen, white, (a_block))
-	        guess = 'a'
-	        
-	        if guess in word:
-	        	print(word)
+		if a_block.collidepoint(mouse_pos)and click:
+			pygame.draw.rect(screen, white, (a_block))
+			guess = 'a'
+			
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
+					
+				screen.blit(a, l_num)
+				word = word[:a_]+word[a_+1:]
 
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
 
-	        	#screen.blit(a, l_num)
+		if b_block.collidepoint(mouse_pos)and click:
+			guess = 'b'
+			pygame.draw.rect(screen, white, (b_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	    if b_block.collidepoint(mouse_pos)and click:
-	        guess = 'b'
-	        pygame.draw.rect(screen, white, (b_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
 
-	        	screen.blit(a, l_num)
+		if c_block.collidepoint(mouse_pos)and click:
+			guess = 'c'
+			pygame.draw.rect(screen, white, (c_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	    if c_block.collidepoint(mouse_pos)and click:
-	        guess = 'c'
-	        pygame.draw.rect(screen, white, (c_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
 
-	        	screen.blit(a, l_num)
+		if d_block.collidepoint(mouse_pos)and click:
+			guess = 'd'
+			pygame.draw.rect(screen, white, (d_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	    if d_block.collidepoint(mouse_pos)and click:
-	        guess = 'd'
-	        pygame.draw.rect(screen, white, (d_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
 
-	        	screen.blit(a, l_num)
+		if e_block.collidepoint(mouse_pos)and click:
+			guess = 'e'
+			pygame.draw.rect(screen, white, (e_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	    if e_block.collidepoint(mouse_pos)and click:
-	        guess = 'e'
-	        pygame.draw.rect(screen, white, (e_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
 
-	        	screen.blit(a, l_num)
+		if f_block.collidepoint(mouse_pos)and click:
+			guess = 'f'
+			pygame.draw.rect(screen, white, (f_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	    if f_block.collidepoint(mouse_pos)and click:
-	        guess = 'f'
-	        pygame.draw.rect(screen, white, (f_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if g_block.collidepoint(mouse_pos)and click:
+			guess = 'g'
+			pygame.draw.rect(screen, white, (g_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if g_block.collidepoint(mouse_pos)and click:
-	        guess = 'g'
-	        pygame.draw.rect(screen, white, (g_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
 
-	        	screen.blit(a, l_num)
+		if h_block.collidepoint(mouse_pos)and click:
+			guess = 'h'
+			pygame.draw.rect(screen, white, (h_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	    if h_block.collidepoint(mouse_pos)and click:
-	        guess = 'h'
-	        pygame.draw.rect(screen, white, (h_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if i_block.collidepoint(mouse_pos)and click:
+			guess = 'i'
+			pygame.draw.rect(screen, white, (i_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if i_block.collidepoint(mouse_pos)and click:
-	        guess = 'i'
-	        pygame.draw.rect(screen, white, (i_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if j_block.collidepoint(mouse_pos)and click:
+			guess = 'j'
+			pygame.draw.rect(screen, white, (j_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if j_block.collidepoint(mouse_pos)and click:
-	        guess = 'j'
-	        pygame.draw.rect(screen, white, (j_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if k_block.collidepoint(mouse_pos)and click:
+			guess = 'k'
+			pygame.draw.rect(screen, white, (k_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if k_block.collidepoint(mouse_pos)and click:
-	        guess = 'k'
-	        pygame.draw.rect(screen, white, (k_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if l_block.collidepoint(mouse_pos)and click:
+			guess = 'l'
+			pygame.draw.rect(screen, white, (l_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if l_block.collidepoint(mouse_pos)and click:
-	        guess = 'l'
-	        pygame.draw.rect(screen, white, (l_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if m_block.collidepoint(mouse_pos)and click:
+			guess = 'm'
+			pygame.draw.rect(screen, white, (m_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if m_block.collidepoint(mouse_pos)and click:
-	        guess = 'm'
-	        pygame.draw.rect(screen, white, (m_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if n_block.collidepoint(mouse_pos)and click:
+			guess = 'n'
+			pygame.draw.rect(screen, white, (n_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if n_block.collidepoint(mouse_pos)and click:
-	        guess = 'n'
-	        pygame.draw.rect(screen, white, (n_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if o_block.collidepoint(mouse_pos)and click:
+			guess = 'o'
+			pygame.draw.rect(screen, white, (o_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if o_block.collidepoint(mouse_pos)and click:
-	        guess = 'o'
-	        pygame.draw.rect(screen, white, (o_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
 
-	        	screen.blit(a, l_num)
+		if p_block.collidepoint(mouse_pos)and click:
+			guess = 'p'
+			pygame.draw.rect(screen, white, (p_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	    if p_block.collidepoint(mouse_pos)and click:
-	        guess = 'p'
-	        pygame.draw.rect(screen, white, (p_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if q_block.collidepoint(mouse_pos)and click:
+			guess = 'q'
+			pygame.draw.rect(screen, white, (q_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if q_block.collidepoint(mouse_pos)and click:
-	        guess = 'q'
-	        pygame.draw.rect(screen, white, (q_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if r_block.collidepoint(mouse_pos)and click:
+			guess = 'r'
+			pygame.draw.rect(screen, white, (r_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if r_block.collidepoint(mouse_pos)and click:
-	        guess = 'r'
-	        pygame.draw.rect(screen, white, (r_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if s_block.collidepoint(mouse_pos)and click:
+			guess = 's'
+			pygame.draw.rect(screen, white, (s_block))
 
-	        	screen.blit(a, l_num)
-	    if s_block.collidepoint(mouse_pos)and click:
-	        guess = 's'
-	        pygame.draw.rect(screen, white, (s_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if t_block.collidepoint(mouse_pos)and click:
+			guess = 't'
+			pygame.draw.rect(screen, white, (t_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if t_block.collidepoint(mouse_pos)and click:
-	        guess = 't'
-	        pygame.draw.rect(screen, white, (t_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
 
-	        	screen.blit(a, l_num)
+		if u_block.collidepoint(mouse_pos)and click:
+			guess = 'u'
+			pygame.draw.rect(screen, white, (u_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	    if u_block.collidepoint(mouse_pos)and click:
-	        guess = 'u'
-	        pygame.draw.rect(screen, white, (u_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if v_block.collidepoint(mouse_pos)and click:
+			guess = 'v'
+			pygame.draw.rect(screen, white, (v_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if v_block.collidepoint(mouse_pos)and click:
-	        guess = 'v'
-	        pygame.draw.rect(screen, white, (v_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if w_block.collidepoint(mouse_pos)and click:
+			guess = 'w'
+			pygame.draw.rect(screen, white, (w_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if w_block.collidepoint(mouse_pos)and click:
-	        guess = 'w'
-	        pygame.draw.rect(screen, white, (w_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if x_block.collidepoint(mouse_pos)and click:
+			guess = 'x'
+			pygame.draw.rect(screen, white, (x_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if x_block.collidepoint(mouse_pos)and click:
-	        guess = 'x'
-	        pygame.draw.rect(screen, white, (x_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if y_block.collidepoint(mouse_pos) and click:
+			guess = 'y'
+			pygame.draw.rect(screen, white, (y_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if y_block.collidepoint(mouse_pos) and click:
-	        guess = 'y'
-	        pygame.draw.rect(screen, white, (y_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		if z_block.collidepoint(mouse_pos) and click:
+			guess = 'z'
+			pygame.draw.rect(screen, white, (z_block))
+			if guess in word:
+				a_ = word.index(guess)
+				a = font4.render(word[a_], True, black)
+				if len(word) == 4:
+					if a_ == 0:
+						l_num = (395,260)
+					if a_ == 1:
+						l_num = (430,260)
+					if a_ == 2:
+						l_num = (465,260)
+					if a_ == 3:
+						l_num = (500,260)
+				if len(word) == 5:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+				if len(word) == 6:
+					if a_ == 0:
+						l_num = (360,260)
+					if a_ == 1:
+						l_num = (395,260)
+					if a_ == 2:
+						l_num = (430,260)
+					if a_ == 3:
+						l_num = (465,260)
+					if a_ == 4:
+						l_num = (500,260)
+					if a_ == 5:
+						l_num = (535,260)
+				if len(word) == 7:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+				if len(word) == 8:
+					if a_ == 0:
+						l_num = (325,260)
+					if a_ == 1:
+						l_num = (360,260)
+					if a_ == 2:
+						l_num = (395,260)
+					if a_ == 3:
+						l_num = (430,260)
+					if a_ == 4:
+						l_num = (465,260)
+					if a_ == 5:
+						l_num = (500,260)
+					if a_ == 6:
+						l_num = (535,260)
+					if a_ == 7:
+						l_num = (570,260)
+				if len(word) == 9:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (570,260)
+				if len(word) == 10:
+					if a_ == 0:
+						l_num = (290,260)
+					if a_ == 1:
+						l_num = (325,260)
+					if a_ == 2:
+						l_num = (360,260)
+					if a_ == 3:
+						l_num = (395,260)
+					if a_ == 4:
+						l_num = (430,260)
+					if a_ == 5:
+						l_num = (465,260)
+					if a_ == 6:
+						l_num = (500,260)
+					if a_ == 7:
+						l_num = (535,260)
+					if a_ == 8:
+						l_num = (370,260)
+					if a_ == 9:
+						l_num = (605,260)
+				if len(word) == 11:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+				if len(word) == 12:
+					if a_ == 0:
+						l_num = (255,260)
+					if a_ == 1:
+						l_num = (290,260)
+					if a_ == 2:
+						l_num = (325,260)
+					if a_ == 3:
+						l_num = (360,260)
+					if a_ == 4:
+						l_num = (395,260)
+					if a_ == 5:
+						l_num = (430,260)
+					if a_ == 6:
+						l_num = (465,260)
+					if a_ == 7:
+						l_num = (500,260)
+					if a_ == 8:
+						l_num = (535,260)
+					if a_ == 9:
+						l_num = (570,260)
+					if a_ == 10:
+						l_num = (605,260)
+					if a_ == 11:
+						l_num = (640,260)
 
-	        	screen.blit(a, l_num)
-	    if z_block.collidepoint(mouse_pos) and click:
-	        guess = 'z'
-	        pygame.draw.rect(screen, white, (z_block))
-	        if guess in word:
-	        	a_ = word.index(guess)
-	        	a = font4.render(word[a_], True, black)
-	        	if len(word) == 4:
-		        	if a_ == 0:
-		        		l_num = (395,260)
-		        	if a_ == 1:
-		        		l_num = (430,260)
-		        	if a_ == 2:
-		        		l_num = (465,260)
-		        	if a_ == 3:
-		        		l_num = (500,260)
-		        if len(word) == 5:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        if len(word) == 6:
-		        	if a_ == 0:
-		        		l_num = (360,260)
-		        	if a_ == 1:
-		        		l_num = (395,260)
-		        	if a_ == 2:
-		        		l_num = (430,260)
-		        	if a_ == 3:
-		        		l_num = (465,260)
-		        	if a_ == 4:
-		        		l_num = (500,260)
-		        	if a_ == 5:
-		        		l_num = (535,260)
-		        if len(word) == 7:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        if len(word) == 8:
-		        	if a_ == 0:
-		        		l_num = (325,260)
-		        	if a_ == 1:
-		        		l_num = (360,260)
-		        	if a_ == 2:
-		        		l_num = (395,260)
-		        	if a_ == 3:
-		        		l_num = (430,260)
-		        	if a_ == 4:
-		        		l_num = (465,260)
-		        	if a_ == 5:
-		        		l_num = (500,260)
-		        	if a_ == 6:
-		        		l_num = (535,260)
-		        	if a_ == 7:
-		        		l_num = (570,260)
-		        if len(word) == 9:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (570,260)
-		        if len(word) == 10:
-		        	if a_ == 0:
-		        		l_num = (290,260)
-		        	if a_ == 1:
-		        		l_num = (325,260)
-		        	if a_ == 2:
-		        		l_num = (360,260)
-		        	if a_ == 3:
-		        		l_num = (395,260)
-		        	if a_ == 4:
-		        		l_num = (430,260)
-		        	if a_ == 5:
-		        		l_num = (465,260)
-		        	if a_ == 6:
-		        		l_num = (500,260)
-		        	if a_ == 7:
-		        		l_num = (535,260)
-		        	if a_ == 8:
-		        		l_num = (370,260)
-		        	if a_ == 9:
-		        		l_num = (605,260)
-		        if len(word) == 11:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        if len(word) == 12:
-		        	if a_ == 0:
-		        		l_num = (255,260)
-		        	if a_ == 1:
-		        		l_num = (290,260)
-		        	if a_ == 2:
-		        		l_num = (325,260)
-		        	if a_ == 3:
-		        		l_num = (360,260)
-		        	if a_ == 4:
-		        		l_num = (395,260)
-		        	if a_ == 5:
-		        		l_num = (430,260)
-		        	if a_ == 6:
-		        		l_num = (465,260)
-		        	if a_ == 7:
-		        		l_num = (500,260)
-		        	if a_ == 8:
-		        		l_num = (535,260)
-		        	if a_ == 9:
-		        		l_num = (570,260)
-		        	if a_ == 10:
-		        		l_num = (605,260)
-		        	if a_ == 11:
-		        		l_num = (640,260)
+				screen.blit(a, l_num)
+		#screen.blit(a, l_num)
+		#print('hello')
+		
 
-	        	screen.blit(a, l_num)
-	    screen.blit(a, l_num)
-
-	    #return guess
+		#return guess
 
 game = True
 lives = 10
@@ -4602,7 +4603,7 @@ while True:
 			click = True
 		if event.type == pygame.MOUSEBUTTONUP :
 			click = False
-         
+		 
 	mouse_pos = pygame.mouse.get_pos()
 
 	pygame.display.update()
