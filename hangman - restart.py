@@ -24,6 +24,8 @@ guess = ''
 mouse_pos = pygame.mouse.get_pos()
 lives_txt = 10
 head = pygame.image.load("head.png")
+head2 = pygame.image.load("head2.png")
+stars = 0
 
 # colours
 white = (255, 255, 255)
@@ -31,6 +33,7 @@ black = (0, 0, 0)
 blue = (152, 211, 255)
 yellow = (0, 124, 255)
 grey = (202, 207, 210)
+actual_yellow = (249, 230, 0)
 
 # text...
 font = pygame.font.SysFont('arial', 50)
@@ -47,10 +50,10 @@ letter_10 = font2.render("There are 10 letters", True, black)
 letter_11 = font2.render("There are 11 letters", True, black)
 letter_12 = font2.render("There are 12 letters", True, black)
 restart = font3.render("RESTART", True, black)
-
+stars_txt = font3.render("STARS: " + str(stars), True, black)
 lives_txt_render = font3.render("You have " + str(lives_txt) + " lives", True, black)
-
-restart_block = pygame.Rect(575,135,100,30)
+stars_block = pygame.Rect(475,135,90,30)
+restart_block = pygame.Rect(578,135,100,30)
 
 # DEFINE .Rect OF THE LETTER BLOCKS
 a_block = pygame.Rect(5, 480, 50, 50)
@@ -197,6 +200,7 @@ def draw_screen():
 
 	if len(word) == 4:
 		pygame.draw.rect(screen, yellow, (385, 350, 300, 50))
+		pygame.draw.rect(screen, black, (385, 350, 300, 50), 1)
 		screen.blit(letter_4, (390, 350))
 		pygame.draw.line(screen, black, (390, 300), (420, 300), 4)
 		pygame.draw.line(screen, black, (425, 300), (455, 300), 4)
@@ -291,6 +295,12 @@ def draw_screen():
 	pygame.draw.rect(screen, black, (restart_block), 1)
 	screen.blit(restart, (590,138))
 
+	# stars block
+
+	pygame.draw.rect(screen, actual_yellow, stars_block)
+	pygame.draw.rect(screen, black, stars_block, 1)
+	screen.blit(stars_txt, (480,138))
+
 
 	# BLIT LETTERS
 	screen.blit(aa, (15, 475))
@@ -320,9 +330,12 @@ def draw_screen():
 	screen.blit(yy, (620, 535))
 	screen.blit(zz, (675, 535))
 
+	
+
 	lives_txt_render = font3.render("You have " + str(lives_txt) + " lives", True, black)
 	pygame.draw.rect(screen, white, lives_block)
 	screen.blit(lives_txt_render, (5, 150))
+	
 
 	
 
@@ -4593,6 +4606,9 @@ while True:
 	if click:
 		guesses()
 		guesses()
+		guesses()
+		guesses()
+		guesses()
 		click = False
 
 	if guess in alphabet:
@@ -4612,6 +4628,13 @@ while True:
 			if correct_guess == len(word2):
 				print('you won!')
 				game = False
+				stars += 1
+				stars_txt = font3.render("STARS: " + str(stars), True, black)
+				pygame.draw.rect(screen, actual_yellow, stars_block)
+				pygame.draw.rect(screen, black, stars_block, 1)
+				screen.blit(stars_txt, (480,138))
+				
+				pygame.display.update()
 
 	if lives == 9:
 		one = pygame.draw.line(screen, black, (20, 450), (200, 450), 4)
@@ -4642,6 +4665,7 @@ while True:
 		pygame.display.update()
 	elif lives == 0:
 		ten = pygame.draw.line(screen, black, (200, 340), (250, 330), 3)
+		screen.blit(head2, (150, 250))
 		pygame.display.update()
 		game = False
 
