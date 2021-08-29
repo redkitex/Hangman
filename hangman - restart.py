@@ -9,12 +9,10 @@ pygame.init()
 game = True
 screen = pygame.display.set_mode((725, 600))
 lives = 10
-word_list = ['elbow', 'jazz', 'abruptly', 'bayou', 'dwarves', 'gossip', 'awkward', 'jockey', 'jigsaw', 'zigzagging',
-			  'wizard', 'transcript', 'quiz', 'pneumonia', 'oxygen', 'pixel,', 'transplant', 'rhubarb', 'queue',
-			  'rhythm', 'topaz', 'swivel', 'unworthy', 'witchcraft', 'wavy', 'whiskey', 'yoke', 'zigzag', 'microwave',
-			  'sphinx', 'scratch', 'thrift', 'xylophone', 'zombie', 'vodka', 'syndrome', 'neighbour', 'neighborhood',
-			  'occasional', 'independent', 'egypt', 'grandmother', 'official,', 'monkey,', 'explanation', 'arrangement',
-			  'mysterious']
+
+with open("words.txt","r") as f:
+	word_list = f.readlines()
+word_list = [x.strip() for x in word_list]
 word = random.choice(word_list)
 actual_word = word
 correct_guess = 0
@@ -32,6 +30,7 @@ white = (255, 255, 255)
 black = (0, 0, 0)
 blue = (152, 211, 255)
 yellow = (0, 124, 255)
+grey = (202, 207, 210)
 
 # text...
 font = pygame.font.SysFont('arial', 50)
@@ -47,8 +46,11 @@ letter_9 = font2.render("There are 9 letters", True, black)
 letter_10 = font2.render("There are 10 letters", True, black)
 letter_11 = font2.render("There are 11 letters", True, black)
 letter_12 = font2.render("There are 12 letters", True, black)
+restart = font3.render("RESTART", True, black)
 
 lives_txt_render = font3.render("You have " + str(lives_txt) + " lives", True, black)
+
+restart_block = pygame.Rect(575,135,100,30)
 
 # DEFINE .Rect OF THE LETTER BLOCKS
 a_block = pygame.Rect(5, 480, 50, 50)
@@ -282,6 +284,14 @@ def draw_screen():
 	pygame.draw.rect(screen, black, (b_block), 1)
 	pygame.draw.rect(screen, black, (n_block), 1)
 	pygame.draw.rect(screen, black, (m_block), 1)
+
+	# restart block
+
+	pygame.draw.rect(screen, grey, (restart_block))
+	pygame.draw.rect(screen, black, (restart_block), 1)
+	screen.blit(restart, (590,138))
+
+
 	# BLIT LETTERS
 	screen.blit(aa, (15, 475))
 	screen.blit(bb, (70, 475))
@@ -310,9 +320,11 @@ def draw_screen():
 	screen.blit(yy, (620, 535))
 	screen.blit(zz, (675, 535))
 
-	# screen.blit(a, (350,250))
-
+	lives_txt_render = font3.render("You have " + str(lives_txt) + " lives", True, black)
+	pygame.draw.rect(screen, white, lives_block)
 	screen.blit(lives_txt_render, (5, 150))
+
+	
 
 	pygame.display.update()
 
@@ -497,7 +509,7 @@ def guesses():
 				word100()
 
 		if b_block.collidepoint(mouse_pos) and click:
-			guhess = 'b'
+			guess = 'b'
 			pygame.draw.rect(screen, white, (b_block))
 			if guess in actual_word:
 				a_ = actual_word.index(guess)
@@ -4641,6 +4653,22 @@ while True:
 			click = True
 		if event.type == pygame.MOUSEBUTTONUP:
 			click = False
+
+		if restart_block.collidepoint(mouse_pos) and click:
+			alphabet = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x',
+			'c', 'v', 'b', 'n', 'm']
+			word = random.choice(word_list)
+			actual_word = word
+			correct_guess = 0
+			game = True
+			lives = 10
+			click = False
+			correct_guess = 0
+			lives_txt = 10
+			guess = ''
+			draw_screen()
+
+
 
 	mouse_pos = pygame.mouse.get_pos()
 
