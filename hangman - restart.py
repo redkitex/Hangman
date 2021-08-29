@@ -9,14 +9,14 @@ pygame.init()
 game = True
 screen = pygame.display.set_mode((725, 600))
 lives = 10
-word_lists = ['elbow', 'jazz', 'abruptly', 'bayou', 'dwarves', 'gossip', 'awkward', 'jockey', 'jigsaw', 'zigzagging',
+word_list = ['elbow', 'jazz', 'abruptly', 'bayou', 'dwarves', 'gossip', 'awkward', 'jockey', 'jigsaw', 'zigzagging',
 			  'wizard', 'transcript', 'quiz', 'pneumonia', 'oxygen', 'pixel,', 'transplant', 'rhubarb', 'queue',
 			  'rhythm', 'topaz', 'swivel', 'unworthy', 'witchcraft', 'wavy', 'whiskey', 'yoke', 'zigzag', 'microwave',
 			  'sphinx', 'scratch', 'thrift', 'xylophone', 'zombie', 'vodka', 'syndrome', 'neighbour', 'neighborhood',
 			  'occasional', 'independent', 'egypt', 'grandmother', 'official,', 'monkey,', 'explanation', 'arrangement',
 			  'mysterious']
-word_list = ['goat']
 word = random.choice(word_list)
+actual_word = word
 correct_guess = 0
 alphabet = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x',
 			'c', 'v', 'b', 'n', 'm']
@@ -323,8 +323,9 @@ click = False
 guess = ''
 
 
+
 def guesses():
-	global guess, click, mouse_pos, a_, l3, l_num, word
+	global guess, click, mouse_pos, a_, l3, l_num, word, actual_word
 	guess = ''
 	for event in pygame.event.get():
 		if event.type == pygame.MOUSEBUTTONDOWN:
@@ -332,13 +333,12 @@ def guesses():
 		if event.type == pygame.MOUSEBUTTONUP:
 			click = False
 	if game:
-
 		if a_block.collidepoint(mouse_pos) and click:
 			pygame.draw.rect(screen, white, (a_block))
 			guess = 'a'
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -494,13 +494,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 
 		if b_block.collidepoint(mouse_pos) and click:
-			guess = 'b'
+			guhess = 'b'
 			pygame.draw.rect(screen, white, (b_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -656,13 +657,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 
 		if c_block.collidepoint(mouse_pos) and click:
 			guess = 'c'
 			pygame.draw.rect(screen, white, (c_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -818,13 +820,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 
 		if d_block.collidepoint(mouse_pos) and click:
 			guess = 'd'
 			pygame.draw.rect(screen, white, d_block)
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -980,13 +983,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 
 		if e_block.collidepoint(mouse_pos) and click:
 			guess = 'e'
 			pygame.draw.rect(screen, white, (e_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -1142,13 +1146,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 
 		if f_block.collidepoint(mouse_pos) and click:
 			guess = 'f'
 			pygame.draw.rect(screen, white, (f_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -1304,12 +1309,15 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
+
+
 		if g_block.collidepoint(mouse_pos) and click:
 			guess = 'g'
 			pygame.draw.rect(screen, white, (g_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -1465,13 +1473,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 
 		if h_block.collidepoint(mouse_pos) and click:
 			guess = 'h'
 			pygame.draw.rect(screen, white, (h_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -1627,12 +1636,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
+
 		if i_block.collidepoint(mouse_pos) and click:
 			guess = 'i'
 			pygame.draw.rect(screen, white, (i_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -1788,12 +1799,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
+
 		if j_block.collidepoint(mouse_pos) and click:
 			guess = 'j'
 			pygame.draw.rect(screen, white, (j_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -1949,12 +1962,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
+
 		if k_block.collidepoint(mouse_pos) and click:
 			guess = 'k'
 			pygame.draw.rect(screen, white, (k_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -2110,12 +2125,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
+
 		if l_block.collidepoint(mouse_pos) and click:
 			guess = 'l'
 			pygame.draw.rect(screen, white, (l_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -2271,12 +2288,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
+
 		if m_block.collidepoint(mouse_pos) and click:
 			guess = 'm'
 			pygame.draw.rect(screen, white, (m_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -2432,12 +2451,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
+
 		if n_block.collidepoint(mouse_pos) and click:
 			guess = 'n'
 			pygame.draw.rect(screen, white, (n_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -2593,12 +2614,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
+
 		if o_block.collidepoint(mouse_pos) and click:
 			guess = 'o'
 			pygame.draw.rect(screen, white, (o_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -2754,13 +2777,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 
 		if p_block.collidepoint(mouse_pos) and click:
 			guess = 'p'
 			pygame.draw.rect(screen, white, (p_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -2916,12 +2940,13 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 		if q_block.collidepoint(mouse_pos) and click:
 			guess = 'q'
 			pygame.draw.rect(screen, white, q_block)
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -3077,12 +3102,13 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 		if r_block.collidepoint(mouse_pos) and click:
 			guess = 'r'
 			pygame.draw.rect(screen, white, (r_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -3238,13 +3264,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 		if s_block.collidepoint(mouse_pos) and click:
 			guess = 's'
 			pygame.draw.rect(screen, white, (s_block))
 
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -3400,12 +3427,13 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 		if t_block.collidepoint(mouse_pos) and click:
 			guess = 't'
 			pygame.draw.rect(screen, white, (t_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -3561,13 +3589,14 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 
 		if u_block.collidepoint(mouse_pos) and click:
 			guess = 'u'
 			pygame.draw.rect(screen, white, (u_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -3723,12 +3752,13 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 		if v_block.collidepoint(mouse_pos) and click:
 			guess = 'v'
 			pygame.draw.rect(screen, white, (v_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -3884,12 +3914,13 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 		if w_block.collidepoint(mouse_pos) and click:
 			guess = 'w'
 			pygame.draw.rect(screen, white, (w_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -4045,12 +4076,13 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 		if x_block.collidepoint(mouse_pos) and click:
 			guess = 'x'
 			pygame.draw.rect(screen, white, (x_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -4206,12 +4238,13 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 		if y_block.collidepoint(mouse_pos) and click:
 			guess = 'y'
 			pygame.draw.rect(screen, white, (y_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -4367,12 +4400,13 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 		if z_block.collidepoint(mouse_pos) and click:
 			guess = 'z'
 			pygame.draw.rect(screen, white, (z_block))
-			if guess in word:
-				a_ = word.index(guess)
-				a = font4.render(word[a_], True, black)
+			if guess in actual_word:
+				a_ = actual_word.index(guess)
+				a = font4.render(actual_word[a_], True, black)
 				if len(word) == 4:
 					if a_ == 0:
 						l_num = (395, 260)
@@ -4528,7 +4562,13 @@ def guesses():
 						l_num = (640, 260)
 
 				screen.blit(a, l_num)
+				word100()
 
+
+def word100():
+	global a_, actual_word
+	actual_word = actual_word[:a_]+ "-" + actual_word[a_+1:]
+	return actual_word
 
 game = True
 lives = 10
@@ -4539,6 +4579,7 @@ draw_screen()
 # main loop
 while True:
 	if click:
+		guesses()
 		guesses()
 		click = False
 
