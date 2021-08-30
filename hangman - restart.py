@@ -25,7 +25,7 @@ mouse_pos = pygame.mouse.get_pos()
 lives_txt = 10
 head = pygame.image.load("head.png")
 head2 = pygame.image.load("head2.png")
-stars = 0
+hints = 0
 
 # colours
 white = (255, 255, 255)
@@ -50,9 +50,9 @@ letter_10 = font2.render("There are 10 letters", True, black)
 letter_11 = font2.render("There are 11 letters", True, black)
 letter_12 = font2.render("There are 12 letters", True, black)
 restart = font3.render("RESTART", True, black)
-stars_txt = font3.render("STARS: " + str(stars), True, black)
+hint_txt = font3.render("HINTS: " + str(hints), True, black)
 lives_txt_render = font3.render("You have " + str(lives_txt) + " lives", True, black)
-stars_block = pygame.Rect(475,135,90,30)
+hint_block = pygame.Rect(475,135,90,30)
 restart_block = pygame.Rect(578,135,100,30)
 
 # DEFINE .Rect OF THE LETTER BLOCKS
@@ -295,11 +295,11 @@ def draw_screen():
 	pygame.draw.rect(screen, black, (restart_block), 1)
 	screen.blit(restart, (590,138))
 
-	# stars block
+	# hints block
 
-	pygame.draw.rect(screen, actual_yellow, stars_block)
-	pygame.draw.rect(screen, black, stars_block, 1)
-	screen.blit(stars_txt, (480,138))
+	pygame.draw.rect(screen, actual_yellow, hint_block)
+	pygame.draw.rect(screen, black, hint_block, 1)
+	screen.blit(hint_txt, (480,138))
 
 
 	# BLIT LETTERS
@@ -466,7 +466,7 @@ def guesses():
 					if a_ == 7:
 						l_num = (535, 260)
 					if a_ == 8:
-						l_num = (370, 260)
+						l_num = (570, 260)
 					if a_ == 9:
 						l_num = (605, 260)
 				if len(word) == 11:
@@ -4595,6 +4595,239 @@ def word100():
 	actual_word = actual_word[:a_]+ "-" + actual_word[a_+1:]
 	return actual_word
 
+def answer():
+	global word, actual_word
+	if len(word) == 4:
+		if actual_word[0] != '-':
+			a = font4.render(actual_word[0], True, yellow)
+			screen.blit(a, (395, 260))
+		if actual_word[1] != '-':
+			a = font4.render(actual_word[1], True, yellow)
+			screen.blit(a, (430, 260))
+		if actual_word[2] != '-':
+			a = font4.render(actual_word[2], True, yellow)
+			screen.blit(a, (465, 260))
+		if actual_word[3] != '-':
+			a = font4.render(actual_word[3], True, yellow)
+			screen.blit(a, (500, 260))
+		
+
+	if len(word) == 5:
+		if actual_word[0] != '-':
+			a = font4.render(actual_word[0], True, yellow)
+			screen.blit(a, (360, 260))
+		if actual_word[1] != '-':
+			a = font4.render(actual_word[1], True, yellow)
+			screen.blit(a, (395, 260))
+		if actual_word[2] != '-':
+			a = font4.render(actual_word[2], True, yellow)
+			screen.blit(a, (430, 260))
+		if actual_word[3] != '-':
+			a = font4.render(actual_word[3], True, yellow)
+			screen.blit(a, (465, 260))
+		if actual_word[4] != '-':
+			a = font4.render(actual_word[4], True, yellow)
+			screen.blit(a, (500, 260))
+		
+	if len(word) == 6:
+		if actual_word[0] != '-':
+			a = font4.render(actual_word[0], True, yellow)
+			screen.blit(a, (360, 260))
+		if actual_word[1] != '-':
+			a = font4.render(actual_word[1], True, yellow)
+			screen.blit(a, (395, 260))
+		if actual_word[2] != '-':
+			a = font4.render(actual_word[2], True, yellow)
+			screen.blit(a, (430, 260))
+		if actual_word[3] != '-':
+			a = font4.render(actual_word[3], True, yellow)
+			screen.blit(a, (465, 260))
+		if actual_word[4] != '-':
+			a = font4.render(actual_word[4], True, yellow)
+			screen.blit(a, (500, 260))
+		if actual_word[5] != '-':
+			a = font4.render(actual_word[5], True, yellow)
+			screen.blit(a, (535, 260))
+	if len(word) == 7:
+		if actual_word[0] != '-':
+			a = font4.render(actual_word[0], True, yellow)
+			screen.blit(a, (325, 260))
+		if actual_word[1] != '-':
+			a = font4.render(actual_word[1], True, yellow)
+			screen.blit(a, (360, 260))
+		if actual_word[2] != '-':
+			a = font4.render(actual_word[2], True, yellow)
+			screen.blit(a, (395, 260))
+		if actual_word[3] != '-':
+			a = font4.render(actual_word[3], True, yellow)
+			screen.blit(a, (430, 260))
+		if actual_word[4] != '-':
+			a = font4.render(actual_word[4], True, yellow)
+			screen.blit(a, (465, 260))
+		if actual_word[5] != '-':
+			a = font4.render(actual_word[5], True, yellow)
+			screen.blit(a, (500, 260))
+		if actual_word[6] != '-':
+			a = font4.render(actual_word[6], True, yellow)
+			screen.blit(a, (535, 260))
+	if len(word) == 8:
+		if actual_word[0] != '-':
+			a = font4.render(actual_word[0], True, yellow)
+			screen.blit(a, (325, 260))
+		if actual_word[1] != '-':
+			a = font4.render(actual_word[1], True, yellow)
+			screen.blit(a, (360, 260))
+		if actual_word[2] != '-':
+			a = font4.render(actual_word[2], True, yellow)
+			screen.blit(a, (395, 260))
+		if actual_word[3] != '-':
+			a = font4.render(actual_word[3], True, yellow)
+			screen.blit(a, (430, 260))
+		if actual_word[4] != '-':
+			a = font4.render(actual_word[4], True, yellow)
+			screen.blit(a, (465, 260))
+		if actual_word[5] != '-':
+			a = font4.render(actual_word[5], True, yellow)
+			screen.blit(a, (500, 260))
+		if actual_word[6] != '-':
+			a = font4.render(actual_word[6], True, yellow)
+			screen.blit(a, (535, 260))
+		if actual_word[7] != '-':
+			a = font4.render(actual_word[7], True, yellow)
+			screen.blit(a, (570, 260))
+	if len(word) == 9:
+		if actual_word[0] != '-':
+			a = font4.render(actual_word[0], True, yellow)
+			screen.blit(a, (290, 260))
+		if actual_word[1] != '-':
+			a = font4.render(actual_word[1], True, yellow)
+			screen.blit(a, (325, 260))
+		if actual_word[2] != '-':
+			a = font4.render(actual_word[2], True, yellow)
+			screen.blit(a, (360, 260))
+		if actual_word[3] != '-':
+			a = font4.render(actual_word[3], True, yellow)
+			screen.blit(a, (395, 260))
+		if actual_word[4] != '-':
+			a = font4.render(actual_word[4], True, yellow)
+			screen.blit(a, (430, 260))
+		if actual_word[5] != '-':
+			a = font4.render(actual_word[5], True, yellow)
+			screen.blit(a, (465, 260))
+		if actual_word[6] != '-':
+			a = font4.render(actual_word[6], True, yellow)
+			screen.blit(a, (500, 260))
+		if actual_word[7] != '-':
+			a = font4.render(actual_word[7], True, yellow)
+			screen.blit(a, (535, 260))
+		if actual_word[8] != '-':
+			a = font4.render(actual_word[8], True, yellow)
+			screen.blit(a, (570, 260))
+	if len(word) == 10:
+		if actual_word[0] != '-':
+			a = font4.render(actual_word[0], True, yellow)
+			screen.blit(a, (290, 260))
+		if actual_word[1] != '-':
+			a = font4.render(actual_word[1], True, yellow)
+			screen.blit(a, (325, 260))
+		if actual_word[2] != '-':
+			a = font4.render(actual_word[2], True, yellow)
+			screen.blit(a, (360, 260))
+		if actual_word[3] != '-':
+			a = font4.render(actual_word[3], True, yellow)
+			screen.blit(a, (395, 260))
+		if actual_word[4] != '-':
+			a = font4.render(actual_word[4], True, yellow)
+			screen.blit(a, (430, 260))
+		if actual_word[5] != '-':
+			a = font4.render(actual_word[5], True, yellow)
+			screen.blit(a, (465, 260))
+		if actual_word[6] != '-':
+			a = font4.render(actual_word[6], True, yellow)
+			screen.blit(a, (500, 260))
+		if actual_word[7] != '-':
+			a = font4.render(actual_word[7], True, yellow)
+			screen.blit(a, (535, 260))
+		if actual_word[8] != '-':
+			a = font4.render(actual_word[8], True, yellow)
+			screen.blit(a, (570, 260))
+		if actual_word[9] != '-':
+			a = font4.render(actual_word[9], True, yellow)
+			screen.blit(a, (605, 260))
+	if len(word) == 11:
+		if actual_word[0] != '-':
+			a = font4.render(actual_word[0], True, yellow)
+			screen.blit(a, (255, 260))
+		if actual_word[1] != '-':
+			a = font4.render(actual_word[1], True, yellow)
+			screen.blit(a, (290, 260))
+		if actual_word[2] != '-':
+			a = font4.render(actual_word[2], True, yellow)
+			screen.blit(a, (325, 260))
+		if actual_word[3] != '-':
+			a = font4.render(actual_word[3], True, yellow)
+			screen.blit(a, (360, 260))
+		if actual_word[4] != '-':
+			a = font4.render(actual_word[4], True, yellow)
+			screen.blit(a, (395, 260))
+		if actual_word[5] != '-':
+			a = font4.render(actual_word[5], True, yellow)
+			screen.blit(a, (430, 260))
+		if actual_word[6] != '-':
+			a = font4.render(actual_word[6], True, yellow)
+			screen.blit(a, (465, 260))
+		if actual_word[7] != '-':
+			a = font4.render(actual_word[7], True, yellow)
+			screen.blit(a, (500, 260))
+		if actual_word[8] != '-':
+			a = font4.render(actual_word[8], True, yellow)
+			screen.blit(a, (535, 260))
+		if actual_word[9] != '-':
+			a = font4.render(actual_word[9], True, yellow)
+			screen.blit(a, (570, 260))
+		if actual_word[10] != '-':
+			a = font4.render(actual_word[10], True, yellow)
+			screen.blit(a, (605, 260))
+	if len(word) == 12:
+		if actual_word[0] != '-':
+			a = font4.render(actual_word[0], True, yellow)
+			screen.blit(a, (255, 260))
+		if actual_word[1] != '-':
+			a = font4.render(actual_word[1], True, yellow)
+			screen.blit(a, (290, 260))
+		if actual_word[2] != '-':
+			a = font4.render(actual_word[2], True, yellow)
+			screen.blit(a, (325, 260))
+		if actual_word[3] != '-':
+			a = font4.render(actual_word[3], True, yellow)
+			screen.blit(a, (360, 260))
+		if actual_word[4] != '-':
+			a = font4.render(actual_word[4], True, yellow)
+			screen.blit(a, (395, 260))
+		if actual_word[5] != '-':
+			a = font4.render(actual_word[5], True, yellow)
+			screen.blit(a, (430, 260))
+		if actual_word[6] != '-':
+			a = font4.render(actual_word[6], True, yellow)
+			screen.blit(a, (465, 260))
+		if actual_word[7] != '-':
+			a = font4.render(actual_word[7], True, yellow)
+			screen.blit(a, (500, 260))
+		if actual_word[8] != '-':
+			a = font4.render(actual_word[8], True, yellow)
+			screen.blit(a, (535, 260))
+		if actual_word[9] != '-':
+			a = font4.render(actual_word[9], True, yellow)
+			screen.blit(a, (570, 260))
+		if actual_word[8] != '-':
+			a = font4.render(actual_word[10], True, yellow)
+			screen.blit(a, (605, 260))
+		if actual_word[9] != '-':
+			a = font4.render(actual_word[11], True, yellow)
+			screen.blit(a, (640, 260))
+	pygame.display.update()
+		
+
 game = True
 lives = 10
 click = False
@@ -4628,11 +4861,11 @@ while True:
 			if correct_guess == len(word2):
 				print('you won!')
 				game = False
-				stars += 1
-				stars_txt = font3.render("STARS: " + str(stars), True, black)
-				pygame.draw.rect(screen, actual_yellow, stars_block)
-				pygame.draw.rect(screen, black, stars_block, 1)
-				screen.blit(stars_txt, (480,138))
+				hints += 1
+				hint_txt = font3.render("HINTS: " + str(hints), True, black)
+				pygame.draw.rect(screen, actual_yellow, hint_block)
+				pygame.draw.rect(screen, black, hint_block, 1)
+				screen.blit(hint_txt, (480,138))
 				
 				pygame.display.update()
 
@@ -4668,6 +4901,8 @@ while True:
 		screen.blit(head2, (150, 250))
 		pygame.display.update()
 		game = False
+		answer()
+
 
 	for event in pygame.event.get():
 		if event.type == QUIT:
@@ -4691,6 +4926,18 @@ while True:
 			lives_txt = 10
 			guess = ''
 			draw_screen()
+
+		if hint_block.collidepoint(mouse_pos) and click and hints >= 1:
+				answer()
+				hints -= 1
+				hint_txt = font3.render("HINTS: " + str(hints), True, black)
+				pygame.draw.rect(screen, actual_yellow, hint_block)
+				pygame.draw.rect(screen, black, hint_block, 1)
+				screen.blit(hint_txt, (480,138))
+				
+				pygame.display.update()
+
+				#####*****-----GIVE HINT-----*****######
 
 
 
