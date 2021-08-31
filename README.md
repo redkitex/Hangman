@@ -1,5 +1,5 @@
 # Hangman
 A hangman game made with python and pygame.
-This was made in grade 9 (2021). 
+I am a beginner in grade 9.
 # Requirements
 pygame
