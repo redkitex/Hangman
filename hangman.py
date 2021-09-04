@@ -2,6 +2,7 @@ import pygame
 import random
 import sys
 from pygame.locals import *
+import pywhatkit
 
 pygame.init()
 
@@ -9,6 +10,7 @@ pygame.init()
 game = True
 screen = pygame.display.set_mode((725, 600))
 lives = 10
+pygame.display.set_caption('Hangman!')
 
 with open("words.txt","r") as f:
 	word_list = f.readlines()
@@ -21,11 +23,12 @@ alphabet = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f'
 heading = pygame.image.load("hangman_heading.png")
 click = False
 guess = ''
+idk_var = True
 mouse_pos = pygame.mouse.get_pos()
 lives_txt = 10
 head = pygame.image.load("head.png")
 head2 = pygame.image.load("head2.png")
-hints = 5
+hints = 25
 
 # colours
 white = (255, 255, 255)
@@ -49,11 +52,13 @@ letter_9 = font2.render("There are 9 letters", True, black)
 letter_10 = font2.render("There are 10 letters", True, black)
 letter_11 = font2.render("There are 11 letters", True, black)
 letter_12 = font2.render("There are 12 letters", True, black)
-restart = font3.render("RESTART", True, black)
-hint_txt = font3.render("HINTS: " + str(hints), True, black)
-lives_txt_render = font3.render("You have " + str(lives_txt) + " lives", True, black)
-hint_block = pygame.Rect(475,135,90,30)
-restart_block = pygame.Rect(578,135,100,30)
+restart = font3.render("RESTART", True, black) #text for restart button
+hint_txt = font3.render("HINTS: " + str(hints), True, black) #text for hint button
+lives_txt_render = font3.render("You have " + str(lives_txt) + " lives", True, black) #text for lives left
+hint_block = pygame.Rect(475,135,90,30) #.Rect of hint button
+restart_block = pygame.Rect(578,135,100,30) #.Rect of restart button
+idk_txt = font3.render("That can't be a word!", True, black) #text for definition button
+idk_block = pygame.Rect(475,178,203,30)
 
 # DEFINE .Rect OF THE LETTER BLOCKS
 a_block = pygame.Rect(5, 480, 50, 50)
@@ -326,6 +331,12 @@ def draw_screen():
 	pygame.draw.rect(screen, actual_yellow, hint_block)
 	pygame.draw.rect(screen, black, hint_block, 1)
 	screen.blit(hint_txt, (480,138))
+
+	# idk block
+
+	pygame.draw.rect(screen, blue, idk_block)
+	pygame.draw.rect(screen, black, idk_block, 1)
+	screen.blit(idk_txt, (500, 180))
 
 
 	# BLIT LETTERS
@@ -9155,8 +9166,10 @@ while True:
 				
 				pygame.display.update()
 
-			if hint_len == len(actual_word):
-				game = False
+	if hint_len == len(actual_word):
+		game = False
+	if (hint_len + correct_guess) == len(actual_word):
+		game = False
 
 	if lives == 9:
 		one = pygame.draw.line(screen, black, (20, 450), (200, 450), 4)
@@ -9216,6 +9229,9 @@ while True:
 			lives_txt = 10
 			guess = ''
 			hint_len = 0
+			idk_var = True
+			letter1, letter2, letter3, letter4, letter5, letter6 = True, True, True, True, True, True
+			letter7, letter8, letter9, letter10, letter11, letter12 = True, True, True, True, True, True
 			draw_screen()
 
 		if hint_block.collidepoint(mouse_pos) and click and hints >= 1:
@@ -9228,6 +9244,9 @@ while True:
 			screen.blit(hint_txt, (480,138))
 			
 			pygame.display.update()
+		if idk_block.collidepoint(mouse_pos) and click and not game and idk_var:
+			pywhatkit.search('define ' + word)
+			idk_var = False
 
 	mouse_pos = pygame.mouse.get_pos()
 
